@@ -1,0 +1,44 @@
+/* Selector 1: Target class (main-title) */
+.main-title {
+    color: #1E90FF; /* Dodger Blue */
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Selector 2: Target ID (intro-text) */
+#intro-text {
+    color: #2E8B57; /* Sea Green */
+    font-family: 'Georgia', serif;
+    font-size: 1.2rem;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #ccc;
+}
+
+/* Selector 3: Target image by class (styled-image) */
+.styled-image {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+    display: block;
+    border: 5px solid #000; /* Black border */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Add some global styles for body */
+body {
+    font-family: 'Verdana', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Optional: Style footer */
+footer p {
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+}
